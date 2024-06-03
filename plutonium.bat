@@ -9,20 +9,19 @@ set "launcher=%LocalAppdata%\Plutonium\bin\plutonium-launcher-win32.exe"
 
 
 if not exist "%source%" (
-    echo Le répertoire source %source% n'existe pas.
+    echo %LocalAppdata%\Plutonium\1 does not exist
     exit /b
 )
 
 
 if not exist "%destination1%" (
-    echo Le répertoire de destination1 %destination1% n'existe pas. Le créer...
-    mkdir "%destination1%"
+    echo the location %destination1% does not exist
+    
 )
 
 
 if not exist "%destination2%" (
-    echo Le répertoire de destination2 %destination2% n'existe pas. Le créer...
-    mkdir "%destination2%"
+    echo the location destination2 %destination2% does not exist
 )
 
 
