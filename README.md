@@ -21,4 +21,4 @@ Enjoy
 
 ## Contact
 
-If you encounter any problems, feel free to contact me on Discord: _.retro_
+If you encounter any problems, feel free to contact me on Discord: `_.retro_`
